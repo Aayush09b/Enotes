@@ -1,0 +1,365 @@
+/* navebar */
+/* .navbar-notes{
+    color: rgb(68, 64, 64);
+} */
+body {
+    /* background-color: #fff; */
+    background-image: url("https://electrothon.nith.ac.in/bg-static.webp");
+    background-position: center;
+    background-size: cover;
+    /* width: 100%;
+height: 100vh; */
+    background-attachment: fixed;
+    background-blend-mode: darken;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+    #second {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1035px) {
+    .john {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gif {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .img-notes {
+        height: 0px;
+        width: 0px;
+    }
+
+    /* #second{
+        margin-top: 3rem;
+        
+        background-color:  #B3E5BE;  
+       
+    } */
+    .cont {
+        padding: 1rem;
+        width: 90%;
+        height: 140%;
+
+    }
+
+    /* //float */
+
+}
+@media screen and (min-width:1159px) {
+    .head {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bolder;
+    border-right: 4px solid rgb(80, 79, 79);
+    animation-name: animateText;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(30);
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fff;
+    }
+}
+
+.link {
+    text-decoration: underline solid rgba(205, 204, 204, .2);
+    ;
+}
+
+.icon {
+    width: 55px;
+}
+
+.navig {
+    color: rgb(255, 255, 255);
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.nav-item {
+    padding: 0 38px;
+    font-size: 1.4rem;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+#first {
+    background-color: rgba(205, 204, 204, .2);
+}
+
+#second {
+    margin-top: 3rem;
+
+    /* background-color:  #FFACAC;  */
+
+}
+
+.search {
+    color: aqua;
+}
+
+.head {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bolder;
+    color: #fff;
+}
+
+@keyframes animateText {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 21ch;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+.para {
+    color: #fff;
+    font-size: 1.1rem;
+
+}
+
+.heading {
+    /* margin-bottom: 20px;*/
+    /* background-color: rgb(75, 74, 99);  */
+    text-align: center;
+}
+
+.welcome {
+    color: #F9F5EB;
+    padding-top: 1rem;
+}
+
+.img-notes {
+    width: 60%;
+    padding-left: 4rem;
+}
+
+.cont {
+    padding: 2rem 2rem 2rem 2rem;
+    width: 80%;
+    height: 120%;
+
+}
+
+/* .btn-outline-success {
+    --bs-btn-color: #6d3ade;
+    --bs-btn-border-color: #6d3ade;
+    --bs-btn-hover-color: #6d3ade;
+    --bs-btn-hover-bg: #6d3ade;
+    --bs-btn-hover-border-color: #651987;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #6d3ade;
+    --bs-btn-active-bg: #6d3ade;
+    --bs-btn-active-border-color: #6d3ade;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #6d3ade;
+    --bs-btn-disabled-bg: #6d3ade;
+    --bs-btn-disabled-border-color: #6d3ade;
+    --bs-gradient: none;
+    --bs-btn-background:#6d3ade;
+  } */
+
+.topic {
+    text-align: center;
+    padding: 3rem;
+}
+
+.catagory {
+    font-size: 2rem;
+    padding: 2rem 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #4ababa;
+    outline: none;
+    animation: animate 1s ease-in-out infinite alternate;
+}
+
+@keyframes animate {
+    from {
+        text-shadow: 0 0 20px #289aab;
+    }
+
+    to {
+
+        text-shadow: 0 0 30px #289aab,
+            0 0 10px #289aab;
+    }
+}
+
+
+
+.image-card {
+    width: 25%;
+    padding-top: 1%;
+}
+
+.text-card {
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-text {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    margin: 2rem;
+}
+
+h3 {
+    font-family: "Merriweather";
+}
+h4{
+    color: #0a0a0a;
+}
+
+.openlib {
+    margin: 4rem;
+    text-align: center;
+}
+
+#footer {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(205, 204, 204, .2);
+    color: #0a0a0a;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .column:hover{
+    
+} */
+.john {
+    padding-top: 1rem;
+    padding: 50px;
+    background-color: rgba(205, 204, 204, .2);
+    border: 2px solid rgba(205, 204, 204, .2);
+    border-radius: 50px;
+}
+
+.sub-col {
+    background-color: #62CDFF;
+
+}
+
+.sub-col:hover {
+    background-color: #00aeff;
+
+    box-shadow: 20px 20px 15px 10px rgb(10, 10, 10);
+}
+
+.card {
+    transition: all 0.5s;
+    background-color: rgba(205, 204, 204, .2);
+}
+
+.card:hover {
+    transform: scale(1.15);
+}
+
+.python {
+    background-color: rgb(255, 207, 51);
+
+
+}
+
+.python:hover {
+    background-color: rgb(255, 196, 0);
+
+
+}
+
+.java {
+    background-color: rgb(255, 121, 63);
+   
+
+}
+
+.java:hover {
+    background-color: rgb(255, 99, 32);
+    
+
+}
+
+.Cplus {
+    background-color: rgb(35, 130, 254);
+
+
+}
+
+.Cplus:hover {
+    background-color: rgb(11, 117, 255);
+
+
+}
+
+.dsa {
+    background-color: rgb(160, 255, 82);
+
+
+}
+
+.dsa:hover {
+    background-color: rgb(131, 255, 30);
+
+
+}
+
+.dbms {
+    background-color: rgb(255, 169, 78);
+
+
+}
+
+.dbms:hover {
+    background-color: rgb(255, 146, 30);
+
+
+}
+
+.JS {
+    background-color: rgb(255, 210, 61);
+
+}
+
+.JS:hover {
+    background-color: rgb(255, 196, 0);
+
+}
+
+.copy {
+    font-size: 18px;
+}
