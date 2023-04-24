@@ -1,7 +1,3 @@
-/* navebar */
-/* .navbar-notes{
-    color: rgb(68, 64, 64);
-} */
 body {
     /* background-color: #fff; */
     background-image: url("https://electrothon.nith.ac.in/bg-static.webp");
@@ -33,11 +29,12 @@ a {
     }
 
     .gif {
-        width: 70%;
+        width: 60%;
     }
+
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:687px) {
     .img-notes {
         height: 0px;
         width: 0px;
