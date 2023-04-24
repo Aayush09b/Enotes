@@ -141,3 +141,9 @@ height: 100vh; */
     background-color: rgb(219, 223, 226);
     text-decoration: none;
 }
+#footer {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(205, 204, 204, .2);
+    color: #0a0a0a;
+}
