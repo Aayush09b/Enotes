@@ -14,7 +14,7 @@ a{
     text-decoration: none;
 }
 body{
-    background-image: url("https://electrothon.nith.ac.in/bg-static.webp");
+    background-image: url("./backgroundimg.jpg");
     background-position: center;
     background-size:cover;
 /* width: 100%;
